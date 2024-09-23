@@ -1,0 +1,513 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+
+  position: fixed;
+  background-color: white;
+  width:100%;
+ 
+ 
+    
+}
+span{
+    color: orangered;
+}
+i{
+    font-size: 30px;
+    font-weight: bold;
+    color: orangered;
+    
+}
+.header h3{
+    font-size:25px;
+    color: #000;
+    padding-right: 20px;
+    
+}
+.header p{
+    font-size: 18px;
+    font-style: italic;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 40px;  
+}
+.he{
+  margin-left: 500px;
+  padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+  
+    margin-right: 20px;
+    font-weight: bold;
+   font-size: 20px;
+   color: black;
+}
+a:hover{
+    color:orangered ;
+}
+
+
+
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Initially hidden */
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  transition: left 0.3s ease;
+  z-index: 999;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 15px;
+  text-align: center;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  background-color: #444; /* Hover effect for sidebar */
+}
+
+.sidebar.active {
+  left: 0; /* Show sidebar */
+}
+.menu i{
+  display: none;
+}
+/* ends here header section */
+
+.himg img{
+    width: 100%;
+    margin-top: 80px;
+}
+.htext{
+    position: absolute;
+    left: 700px;
+    bottom: -5px;
+    padding-left: 20px;
+}
+.htext h1{
+    font-size: 4em;
+    font-weight: bold;
+    padding-bottom: 5px;
+
+}
+.htext p{
+    font-size: 20px;
+    padding-bottom: 10px;
+  
+
+}
+button{
+    background-color: orangered;
+    width: 99px;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    margin-top: 18px;
+}
+button:hover{
+    background-color: rgb(47, 92, 254);
+    color: white;
+}
+/* ends here home section */
+
+.borderh{
+    background-image: 
+    linear-gradient( rgb(52, 63, 72), rgba(14, 30, 44, 0.981)), /* Light blue gradient */
+    url('home.webp'); /* Your background image */
+  background-size: cover; /* Ensure the background image covers the container */
+  background-position: center; /* Center the background image */
+  background-blend-mode: overlay; /* Blend mode to combine gradient and image */
+ 
+  border: 1px solid;
+ width: 90%;
+ margin-left: 48px;
+ height: 45%;
+ position: absolute;
+ bottom: -570px;
+ border-radius: 60px;
+ display: flex;
+ justify-content: space-around;
+
+
+
+  
+}
+.sech1{
+   padding-top: 50px;
+   
+}
+.sech1 i{
+ 
+    font-size: 40px;
+}
+.sech1 h3{
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    padding-top: 10px;
+}
+.sech1 p{
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.sech1 h1{
+    color: white;
+}
+
+.sch2{
+    padding-top: 50px;
+    
+ }
+ .sch2 h2{
+     font-weight: bold;
+     font-size: 2em;
+     color: white;
+     padding-top: 10px;
+     
+ }
+ .sch2 i{
+    padding-left: 2px;
+ }
+ 
+ .sch2 p{
+     font-size: 20px;
+     color: rgb(255, 240, 240);
+     padding-top: 10px;
+     padding-bottom: 5px;
+     font-weight: bold;
+ }
+ hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+.sch2 hr{
+    width: 10px;
+}
+ /* ends here */
+
+ .texthome{
+    text-align: center;
+  margin-top: 300px;
+ }
+ .texthome h1{
+    font-size: 3em;
+    font-weight: bold;
+  
+   padding-bottom: 10px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .texthome p{
+    font-size: 25px;
+    color: rgb(79, 78, 78);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .midle{
+    margin-top: 90px;
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    
+ }
+.icontxt{
+   
+    text-align: center;
+    padding-left: 100px;
+    
+}
+
+ .icontxt i{
+  
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(0, 106, 255);
+    padding-bottom: 50px;
+    
+ }
+ .icontxt i:hover{
+    color: orangered;
+ }
+ .icontxt h1{
+    font-size: 20px;
+ }
+ .icontxt p{
+    font-size: 15px;
+    color: rgb(67, 65, 65);
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .icontxt button{
+    background-color: transparent;
+    color: rgb(42, 41, 41);
+    border: 1px solid goldenrod;
+   border-radius: 5px;
+   width: 120px;
+   height: 28px;
+   padding: 2px 3px;
+ }
+ .icontxt button:hover{
+   background-color: orangered;
+   color: white;
+ }
+ /* end here */
+
+ .f{
+    background-color: rgb(2, 103, 254);
+    height: 60vh;
+
+ }
+ .footerh{
+    display: flex;
+    justify-content: space-between;
+  
+    padding: 50px 70px;
+  
+  
+ }
+ .frigths h1{
+    padding-bottom: 20px;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+ }
+ .frigths p{
+    font-size: 19px;
+    color:rgb(34, 32, 32);
+    color: white;
+ }
+ .iconfooter i{
+    color: orangered;
+    font-size: 12px;
+    display: flex;
+    padding-left: 10px;
+ }
+
+ .iconfooter  i ,h3{
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+ }
+ h4 {
+  text-align: center;
+  color: white;
+    
+  
+ 
+ }
+
+ /* responsive */
+ @media (max-width: 768px) {
+  .header {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the left */
+  }
+
+  .header h3, .header p {
+      padding-left: 0; /* Remove left padding on smaller screens */
+  }
+
+  .he {
+      margin-left: 0; /* Remove left margin */
+      padding-top: 10px; /* Adjust top padding */
+  }
+
+  a {
+      font-size: 18px; /* Smaller font size for links */
+      margin-right: 10px; /* Adjust margin for links */
+  }
+}
+
+ /* @media (max-width: 768px) {
+    .he{
+     display: none;
+    }
+     .menu i{
+      padding-left: 100px;
+      padding-bottom: 20px;
+      font-size: 40px;
+      padding-top: 6px;
+    }
+    .logo h3{
+      padding-top: 10px;
+    }
+    .header h3 {
+      font-size: 20px;
+    }
+    .header p {
+      font-size: 14px;
+      padding-left: 0; /* Remove padding for better alignment */
+    }
+    a {
+      font-size: 16px; /* Further reduce font size */
+      margin-right: 200px; /* Reduce margin */
+      display: block;
+    }
+  } */
+
+
+
+  @media (max-width: 768px) {
+    .htext {
+      left: 72%;
+      bottom: 50%;
+      transform: translateX(-50%);
+      padding-left: 5px;
+    }
+  
+    .htext h1 {
+      font-size: 1cm;
+    }
+  
+    .htext p {
+      font-size: 10px;
+    }
+  
+    button {
+      width: 80px;
+      height: 35px;
+      font-size: 0.8em;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .borderh {
+      border-radius: 30px;
+      padding: 10px 0p;
+    
+      margin-right: 20px;
+      height: 290px;
+      margin-bottom: 600px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .sech1 h3 {
+      font-size: 18px;
+    }
+  
+    .sech1 p {
+      font-size: 14px;
+    }
+  
+    .sech1 i {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .sch2 h2 {
+      font-size: 18px;
+    }
+  
+    .sch2 p {
+      font-size: 16px;
+    }
+  
+    .sch2 hr {
+      width: 6px;
+    }
+  }
+  
+
+
+  @media (max-width: 768px) {
+    .texthome {
+      margin-top: 450px; /* Further adjust margin for smaller screens */
+    }
+  
+    .texthome h1 {
+      font-size: 2em;
+    }
+  
+    .texthome p {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .midle {
+      margin-left: 30px; /* Adjust left margin for smaller screens */
+      margin-right: 30px; /* Adjust right margin for smaller screens */
+    }
+  }
+  @media (max-width: 768px) {
+    .icontxt {
+      padding-left: 30px; /* Further adjust padding */
+    }
+  
+    .icontxt i {
+      font-size: 50px; /* Further adjust icon size */
+    }
+  
+    .icontxt h1 {
+      font-size: 16px;
+    }
+  
+    .icontxt p {
+      font-size: 12px;
+    }
+  
+    .icontxt button {
+      width: 80px; /* Further adjust button width */
+      height: 22px; /* Further adjust button height */
+      font-size: 12px;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .f {
+      height: 68vh; /* Further reduce height for smaller screens */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footerh {
+      padding: 30px 30px; /* Further adjust padding for smaller screens */
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+    }
+  }
+  @media (max-width: 768px) {
+    .frigths h1 {
+      font-size: 1.5em; /* Further adjust font size for smaller screens */
+    } }
+
+    @media (max-width: 768px) {
+        .iconfooter{
+            margin-top: 20px;
+        }
+        .iconfooter i {
+          font-size: 15px; /* Further adjust icon size for smaller screens */
+        }
+      
+        .iconfooter h3 {
+          font-size: 18px; /* Further adjust font size for smaller screens */
+        }
+      }

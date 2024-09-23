@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  width:100%;
+ 
+    
+}
+span{
+    color: orangered;
+}
+i{
+    font-size: 30px;
+    font-weight: bold;
+    color: orangered;
+    
+}
+.header h3{
+    font-size:25px;
+    color: #000;
+    
+}
+.header p{
+    font-size: 18px;
+    font-style: italic;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 40px;  
+}
+.kor{
+   padding-top: 100px;
+}
+.header{
+  padding-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    padding-left: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+   font-size: 20px;
+   color: black;
+   margin-top: 5px;
+}
+a:hover{
+    color:orangered ;
+}
+/* end here */
+.ab{
+   background-image: url(cl.jpg);
+ 
+   background-position: center;
+   background-size: cover;
+   margin-bottom: 20px;
+   margin-top: 20px;
+ 
+  
+
+
+}
+.abhead{
+   background-color: rgb(12, 106, 248);
+   opacity: 0.4;
+   width: 100%;
+   height: 70vh;
+   
+}
+.abhead h1{
+  padding-left: 40px;
+  padding-top: 40px;
+  color:white;
+   font-weight: bold;
+   font-size: 7em;
+}
+.abhead p{
+   font-size: 30px;
+   color: white;
+   padding-left: 40px;
+ 
+}
+/* ends here */
+
+
+
+.contact{
+    display: flex;
+    
+    margin: 100px 20px;
+ }
+ .imc img{
+    width: 600px;
+    border-radius: 10px;
+    animation-name: imc;
+    margin-top: 40px;
+ 
+    animation-duration: 4.2s;
+ }
+ .formc{
+    flex: 2; /* Allows the form to take up more space */
+    max-width: 550px; /* Maximum width of the form */
+    
+    /* Full width within its container */
+    margin: 0 auto; /* Centers the form horizontally */
+ }
+
+ .formc form{
+    width: calc(100% - 20px);
+    height: 390px;
+  
+  
+    margin: 30px 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 17px rgba(0, 0, 0, 0.1);
+    animation-name: formc;
+ 
+    animation-duration: 4.2s;
+ }
+
+ input{
+    width: calc(90% - 20px); /* Full width minus padding */
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+ 
+ label {
+   display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+
+button {
+
+    background-color:goldenrod;
+    margin-left: 170px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 22%; 
+    margin-bottom: 10px;/* Full width of the form */
+}
+
+button:hover {
+    background-color: #0056b3;}
+
+
+    .f{
+        background-color: rgb(2, 103, 254);
+        height: 60vh;
+    
+     }
+     .footerh{
+        display: flex;
+        justify-content: space-between;
+      
+        padding: 50px 70px;
+      
+      
+     }
+     .frigths h1{
+        padding-bottom: 20px;
+        font-size: 2em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: white;
+     }
+     .frigths p{
+        font-size: 19px;
+        color:rgb(34, 32, 32);
+        color: white;
+     }
+     .iconfooter i{
+        color: orangered;
+        font-size: 12px;
+        display: flex;
+        padding-left: 10px;
+     }
+    
+     .iconfooter  i ,h3{
+        color: white;
+        font-size: 16px;
+        padding-left: 10px;
+     }
+     h4 {
+      text-align: center;
+      color: white;
+        
+      
+     
+     }
+
+     /* responsive */
+     @media (max-width: 768px) {
+      .header {
+          flex-direction: column; /* Stack items vertically */
+          align-items: flex-start; /* Align items to the left */
+      }
+    
+      .header h3, .header p {
+          padding-left: 0; /* Remove left padding on smaller screens */
+      }
+    
+      .he {
+          margin-left: 0; /* Remove left margin */
+          padding-top: 10px; /* Adjust top padding */
+      }
+    
+      a {
+          font-size: 18px; /* Smaller font size for links */
+          margin-right: 10px; /* Adjust margin for links */
+      }
+    
+      .abhead{
+         padding-top: 30px;
+      }
+      .abhead p{
+         font-size: 30px;
+      }
+      .abhead h1{
+         font-size: 3em; 
+         margin-top: 20px;
+      }
+      .contact{
+         display: block;
+      }
+      .contact img{
+         width: 360px;
+      }
+      .formc{
+         margin-bottom:0px;
+      }
+      .formc  button{
+         margin-left: 100px; 
+         margin-top: 20px;
+         padding-left: 10px;
+      }
+     
+   }
+
+    @media (max-width: 768px) {
+      .f {
+        height: 68vh; /* Further reduce height for smaller screens */
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .footerh {
+        padding: 30px 30px; /* Further adjust padding for smaller screens */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+      }
+    }
+    @media (max-width: 768px) {
+      .frigths h1 {
+        font-size: 1.5em; /* Further adjust font size for smaller screens */
+      } }
+  
+      @media (max-width: 768px) {
+          .iconfooter{
+              margin-top: 20px;
+          }
+          .iconfooter i {
+            font-size: 15px; /* Further adjust icon size for smaller screens */
+          }
+        
+          .iconfooter h3 {
+            font-size: 18px; /* Further adjust font size for smaller screens */
+          }
+        }
+     
